@@ -1,0 +1,63 @@
+<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"32px","right":"32px"}}},"layout":{"type":"constrained"}} -->
+<header class="wp-block-group" style="padding:24px 32px">
+	<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group">
+		<!-- wp:site-title {"level":0} /-->
+
+		<!-- wp:navigation {"overlayMenu":"mobile"} /-->
+	</div>
+	<!-- /wp:group -->
+</header>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"24px","right":"24px"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="padding:64px 24px">
+	<!-- wp:heading {"level":1,"fontSize":"x-large"} -->
+	<h1 class="wp-block-heading has-x-large-font-size">Latest Posts</h1>
+	<!-- /wp:heading -->
+
+	<!-- wp:query {"queryId":0,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"default"}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+
+			<!-- wp:group {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"blockGap":"16px"}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding:24px">
+				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"border":{"radius":"8px"}}} /-->
+
+				<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+				<!-- wp:post-date {"fontSize":"small"} /-->
+
+				<!-- wp:post-excerpt {"moreText":"Read more"} /-->
+			</div>
+			<!-- /wp:group -->
+
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+
+		<!-- wp:query-no-results -->
+			<!-- wp:paragraph -->
+			<p>No posts were found.</p>
+			<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+	</div>
+	<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"footer","style":{"color":{"background":"#111827","text":"#ffffff"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"24px","right":"24px"}}},"layout":{"type":"constrained"}} -->
+<footer class="wp-block-group has-text-color has-background" style="color:#ffffff;background-color:#111827;padding:40px 24px">
+	<!-- wp:site-title {"level":0,"textAlign":"center"} /-->
+
+	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+	<p class="has-text-align-center has-small-font-size">
+		© 2026 NativePress Agency. All rights reserved.
+	</p>
+	<!-- /wp:paragraph -->
+</footer>
+<!-- /wp:group -->
