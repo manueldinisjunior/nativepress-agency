@@ -5,19 +5,43 @@ Description: A clean native WordPress block theme for a modern web agency.
 Version: 1.0.0
 Requires at least: 6.5
 Requires PHP: 8.0
-Text Domain: nativepress
+Text Domain: nativepress-agency
+Tags: block-theme, full-site-editing, agency, modern
 */
 
 :root {
 	color-scheme: light;
+	color: #2D3142;
+	background-color: #F8F7F5;
+	--wp--preset--color--primary: #1A1F3A;
+	--wp--preset--color--accent: #27D3FF;
+	--wp--preset--color--background: #F8F7F5;
+	--wp--preset--color--text: #2D3142;
+	--wp--preset--color--muted: #666666;
+	--wp--preset--color--border: #E8E6E1;
+	--wp--preset--color--surface: #ffffff;
+	--wp--preset--color--surface-alt: #f8fafc;
+	--wp--custom--radius-sm: 0.5rem;
+	--wp--custom--radius-md: 1rem;
+	--wp--custom--radius-lg: 1.5rem;
 }
 
 html {
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-size: 16px;
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
 }
 
 body {
 	margin: 0;
+	min-height: 100vh;
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
+}
+
+* {
+	box-sizing: border-box;
 }
 
 img {
@@ -25,17 +49,95 @@ img {
 	height: auto;
 }
 
+a {
+	color: var(--wp--preset--color--accent);
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	opacity: 0.85;
+}
+
 :focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid rgba(39, 211, 255, 0.8);
 	outline-offset: 3px;
 }
 
-/*
-Theme Name: NativePress Agency
-Author: Manuel Dinis Júnior
-Description: A native WordPress block theme without ACF or page builders.
-Version: 1.0.0
-Requires at least: 6.5
-Requires PHP: 8.0
-Text Domain: nativepress-agency
-*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--wp--preset--color--primary);
+	font-weight: 700;
+	line-height: 1.15;
+	margin-top: 0;
+}
+
+p {
+	color: var(--wp--preset--color--text);
+	line-height: 1.8;
+	margin: 0 0 1.5rem;
+}
+
+.wp-block-group.alignfull {
+	width: 100vw;
+	margin-left: 50%;
+	margin-right: 50%;
+	padding-left: calc(50vw - 50%);
+	padding-right: calc(50vw - 50%);
+}
+
+.wp-block-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.wp-block-navigation .wp-block-navigation-item a {
+	color: var(--wp--preset--color--text);
+	font-weight: 500;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover {
+	color: var(--wp--preset--color--accent);
+}
+
+.wp-block-group.has-background {
+	border-radius: var(--wp--custom--radius-lg);
+}
+
+.wp-block-button__link {
+	border-radius: 1.25rem;
+	padding: 0.95rem 1.8rem;
+	background-color: var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--primary);
+	font-weight: 600;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	background: transparent;
+	color: var(--wp--preset--color--accent);
+	border: 1px solid var(--wp--preset--color--accent);
+}
+
+.wp-block-buttons {
+	gap: 1rem;
+}
+
+.wp-block-columns {
+	gap: 2rem;
+}
+
+.wp-block-column {
+	min-width: 0;
+}
+
+.has-border-color {
+	border-color: var(--wp--preset--color--border);
+}
+
+.wp-block-group {
+	word-wrap: break-word;
+}

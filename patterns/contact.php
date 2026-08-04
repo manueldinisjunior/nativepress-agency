@@ -24,16 +24,16 @@ register_block_pattern(
 		<!-- wp:column {"width":"45%"} -->
 		<div class="wp-block-column" style="flex-basis:45%">
 			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.2em"}},"textColor":"base"} -->
-			<p class="has-base-color has-text-color">Contact</p>
+			<p class="has-base-color has-text-color" style="font-weight:600;text-transform:uppercase;letter-spacing:0.2em;">Contact</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:heading {"level":2,"textColor":"base","fontSize":"x-large"} -->
-			<h2 class="wp-block-heading has-base-color has-text-color has-x-large-font-size">Let’s build something meaningful.</h2>
+			<h2 class="wp-block-heading has-base-color has-text-color has-x-large-font-size">Let’s create your next digital advantage.</h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"textColor":"base"} -->
-			<p class="has-base-color has-text-color">Share a few details about your goals and we’ll respond with a clear next step.</p>
+			<p class="has-base-color has-text-color">Tell us where you want to go. We will help you create the digital foundation to get there.</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"textColor":"base"} -->
-			<p class="has-base-color has-text-color">hello@nativepress.example<br/>+1 (415) 555-0118</p>
+			<p class="has-base-color has-text-color">+49 177 7941499<br/>manueldinisjunior@gmail.com</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

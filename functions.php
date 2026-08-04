@@ -18,14 +18,18 @@ function nativepress_agency_setup() {
 	add_theme_support( 'editor-styles' );
 	add_theme_support( 'responsive-embeds' );
 	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption', 'style', 'script' ) );
-	add_theme_support( 'custom-logo', array( 'height' => 64, 'width' => 64, 'flex-height' => true, 'flex-width' => true ) );
-	add_theme_support( 'editor-color-palette', array() );
+	add_theme_support( 'custom-logo', array(
+		'height'      => 64,
+		'width'       => 64,
+		'flex-height' => true,
+		'flex-width'  => true,
+	) );
 	add_theme_support( 'wp-block-styles' );
 	add_theme_support( 'align-wide' );
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'nativepress' ),
+			'primary' => __( 'Primary menu', 'nativepress-agency' ),
 		)
 	);
 }
@@ -35,6 +39,7 @@ add_action( 'after_setup_theme', 'nativepress_agency_setup' );
  * Enqueue theme assets.
  */
 function nativepress_agency_enqueue_assets() {
+	wp_enqueue_style( 'nativepress-agency-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap', array(), null );
 	wp_enqueue_style( 'nativepress-agency-style', get_stylesheet_uri(), array(), '1.0.0' );
 	wp_enqueue_script( 'nativepress-agency-script', get_template_directory_uri() . '/assets/js/theme.js', array(), '1.0.0', true );
 }
@@ -68,19 +73,19 @@ add_action( 'init', 'nativepress_agency_register_patterns' );
 function nativepress_agency_primary_menu_fallback() {
 	$items = array(
 		array(
-			'title' => __( 'Home', 'nativepress' ),
+			'title' => __( 'Home', 'nativepress-agency' ),
 			'url'   => home_url( '/' ),
 		),
 		array(
-			'title' => __( 'About', 'nativepress' ),
+			'title' => __( 'About', 'nativepress-agency' ),
 			'url'   => home_url( '/about/' ),
 		),
 		array(
-			'title' => __( 'Services', 'nativepress' ),
+			'title' => __( 'Services', 'nativepress-agency' ),
 			'url'   => home_url( '/services/' ),
 		),
 		array(
-			'title' => __( 'Contact', 'nativepress' ),
+			'title' => __( 'Contact', 'nativepress-agency' ),
 			'url'   => home_url( '/contact/' ),
 		),
 	);
