@@ -11,8 +11,8 @@
 register_block_pattern(
 	'nativepress/contact',
 	array(
-		'title'         => __( 'Contact section', 'nativepress' ),
-		'description'   => _x( 'A contact section for an agency website with an integration area.', 'Pattern description', 'nativepress' ),
+		'title'         => __( 'Kontaktbereich', 'nativepress-agency' ),
+		'description'   => _x( 'Ein Kontaktbereich für eine Agentur-Website mit einem Integrationsbereich.', 'Pattern description', 'nativepress-agency' ),
 		'categories'    => array( 'featured' ),
 		'keywords'      => array( 'contact', 'agency', 'form' ),
 		'viewportWidth' => 1200,
@@ -24,13 +24,13 @@ register_block_pattern(
 		<!-- wp:column {"width":"45%"} -->
 		<div class="wp-block-column" style="flex-basis:45%">
 			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.2em"}},"textColor":"base"} -->
-			<p class="has-base-color has-text-color" style="font-weight:600;text-transform:uppercase;letter-spacing:0.2em;">Contact</p>
+			<p class="has-base-color has-text-color" style="font-weight:600;text-transform:uppercase;letter-spacing:0.2em;">Kontakt</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:heading {"level":2,"textColor":"base","fontSize":"x-large"} -->
-			<h2 class="wp-block-heading has-base-color has-text-color has-x-large-font-size">Let’s create your next digital advantage.</h2>
+			<h2 class="wp-block-heading has-base-color has-text-color has-x-large-font-size">Lassen Sie uns Ihren digitalen Vorsprung gemeinsam gestalten.</h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"textColor":"base"} -->
-			<p class="has-base-color has-text-color">Tell us where you want to go. We will help you create the digital foundation to get there.</p>
+			<p class="has-base-color has-text-color">Sagen Sie uns, wohin Sie wollen. Wir helfen Ihnen, die digitale Grundlage dafür zu schaffen.</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"textColor":"base"} -->
 			<p class="has-base-color has-text-color">+49 177 7941499<br/>manueldinisjunior@gmail.com</p>
@@ -42,11 +42,11 @@ register_block_pattern(
 			<!-- wp:group {"style":{"color":{"background":"#ffffff"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}}}} -->
 			<div class="wp-block-group has-background" style="padding:24px;background-color:#ffffff">
 				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600"}}} -->
-				<p>Form integration area</p>
+			<p>Schreiben Sie uns eine Nachricht und wir melden uns schnellstmöglich zurück.</p>
 				<!-- /wp:paragraph -->
-				<!-- wp:paragraph -->
-				<p>Drop in your preferred form plugin here, such as Fluent Forms, Contact Form 7, or a custom integration.</p>
-				<!-- /wp:paragraph -->
+				<!-- wp:shortcode -->
+				[contact-form-7 id="6c009f9" title="Contact form 1"]
+				<!-- /wp:shortcode -->
 			</div>
 			<!-- /wp:group -->
 		</div>

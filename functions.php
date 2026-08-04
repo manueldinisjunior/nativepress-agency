@@ -56,6 +56,8 @@ function nativepress_agency_register_patterns() {
 		'case-studies',
 		'contact',
 		'call-to-action',
+		'widgets',
+		'newsletter',
 	);
 
 	foreach ( $pattern_files as $pattern_file ) {
@@ -73,28 +75,18 @@ add_action( 'init', 'nativepress_agency_register_patterns' );
 function nativepress_agency_primary_menu_fallback() {
 	$items = array(
 		array(
-			'title' => __( 'Home', 'nativepress-agency' ),
-			'url'   => home_url( '/' ),
-		),
-		array(
-			'title' => __( 'About', 'nativepress-agency' ),
+			'title' => __( 'Über uns', 'nativepress-agency' ),
 			'url'   => home_url( '/about/' ),
 		),
 		array(
-			'title' => __( 'Services', 'nativepress-agency' ),
+			'title' => __( 'Dienstleistungen', 'nativepress-agency' ),
 			'url'   => home_url( '/services/' ),
 		),
 		array(
-			'title' => __( 'Contact', 'nativepress-agency' ),
+			'title' => __( 'Kontakt', 'nativepress-agency' ),
 			'url'   => home_url( '/contact/' ),
 		),
 	);
 
-	$menu_html = '<ul class="wp-menu" style="display:flex;gap:1rem;list-style:none;margin:0;padding:0;">';
-	foreach ( $items as $item ) {
-		$menu_html .= '<li><a href="' . esc_url( $item['url'] ) . '">' . esc_html( $item['title'] ) . '</a></li>';
-	}
-	$menu_html .= '</ul>';
-
-	return $menu_html;
+	return $items;
 }

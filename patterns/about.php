@@ -24,17 +24,17 @@ register_block_pattern(
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 			<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
-			<h2 class="wp-block-heading has-x-large-font-size">We combine strategy, clarity, and craft.</h2>
+			<h2 class="wp-block-heading has-x-large-font-size">Wir verbinden Strategie, Klarheit und Handwerk.</h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
 		<!-- wp:column {"width":"60%"} -->
 		<div class="wp-block-column" style="flex-basis:60%">
 			<!-- wp:paragraph -->
-			<p>We help founders and in-house teams turn ideas into polished digital products that feel effortless to use. Every project starts with audience insight, content structure, and a clear roadmap for growth.</p>
+			<p>Wir helfen Gründern und internen Teams dabei, Ideen in ausgereifte digitale Produkte zu verwandeln, die sich mühelos bedienen lassen. Jedes Projekt beginnt mit Zielgruppen-Insight, Inhaltsstruktur und einer klaren Roadmap für Wachstum.</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p>Our process stays collaborative and transparent so you can make confident decisions while we ship quick wins and long-term value.</p>
+			<p>Unser Prozess bleibt kollaborativ und transparent, damit Sie sichere Entscheidungen treffen können, während wir schnelle Erfolge und langfristigen Wert liefern.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

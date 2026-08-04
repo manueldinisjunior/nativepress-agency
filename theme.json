@@ -38,6 +38,8 @@
       ]
     },
     "color": {
+      "custom": true,
+      "customGradients": true,
       "defaultPalette": false,
       "defaultGradients": false,
       "defaultDuotone": false,

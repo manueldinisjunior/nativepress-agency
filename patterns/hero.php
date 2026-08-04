@@ -24,21 +24,21 @@ register_block_pattern(
 		<!-- wp:column {"width":"55%"} -->
 		<div class="wp-block-column" style="flex-basis:55%">
 			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","textTransform":"uppercase","letterSpacing":"0.2em"}},"textColor":"accent"} -->
-			<p class="has-accent-color has-text-color" style="font-weight:600;text-transform:uppercase;letter-spacing:0.2em;">Creative technology partner</p>
+			<p class="has-accent-color has-text-color" style="font-weight:600;text-transform:uppercase;letter-spacing:0.2em;">Kreativer Technologiepartner</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
-			<h1 class="wp-block-heading has-xx-large-font-size">Digital experiences built for real growth</h1>
+			<h1 class="wp-block-heading has-xx-large-font-size">Digitale Erlebnisse für echtes Wachstum</h1>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size">We combine development, design, cloud and security to help ambitious businesses move forward.</p>
+			<p class="has-large-font-size">Wir verbinden Entwicklung, Design, Cloud und Sicherheit, um ambitionierte Unternehmen voranzubringen.</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#contact">Start a project</a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#contact">Projekt starten</a></div>
 				<!-- /wp:button -->
 				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#services">Explore services</a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#services">Dienstleistungen anzeigen</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -49,16 +49,16 @@ register_block_pattern(
 			<!-- wp:group {"style":{"color":{"background":"#f8fafc"},"border":{"radius":"24px"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"}}}} -->
 			<div class="wp-block-group has-background" style="border-radius:24px;padding:32px;background-color:#f8fafc">
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">Scaling digital teams with native experiences</h3>
+				<h3 class="wp-block-heading">Skalierung digitaler Teams mit nativen Erlebnissen</h3>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph -->
-				<p>Fast, scalable websites and applications built around your business goals. Clean visual systems, strong performance, and no unnecessary complexity.</p>
+				<p>Schnelle, skalierbare Websites und Anwendungen, die auf Ihre Geschäftsziele ausgerichtet sind. Klare visuelle Systeme, starke Performance und ohne unnötige Komplexität.</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:list -->
 				<ul>
-					<li>Web app development</li>
-					<li>Design systems and branding</li>
-					<li>Cloud & security solutions</li>
+					<li>Web-App-Entwicklung</li>
+					<li>Designsysteme und Branding</li>
+					<li>Cloud- & Sicherheitslösungen</li>
 				</ul>
 				<!-- /wp:list -->
 			</div>
