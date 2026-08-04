@@ -1,49 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "settings": {
     "appearanceTools": true,
-    "color": {
-      "defaultDuotone": false,
-      "defaultGradients": false,
-      "defaultPalette": false,
-      "palette": [
-        {
-          "slug": "primary",
-          "name": "Primary",
-          "color": "#2563eb"
-        },
-        {
-          "slug": "primary-dark",
-          "name": "Primary Dark",
-          "color": "#1d4ed8"
-        },
-        {
-          "slug": "accent",
-          "name": "Accent",
-          "color": "#0f766e"
-        },
-        {
-          "slug": "contrast",
-          "name": "Contrast",
-          "color": "#111827"
-        },
-        {
-          "slug": "muted",
-          "name": "Muted",
-          "color": "#6b7280"
-        },
-        {
-          "slug": "surface",
-          "name": "Surface",
-          "color": "#f8fafc"
-        },
-        {
-          "slug": "base",
-          "name": "Base",
-          "color": "#ffffff"
-        }
-      ]
-    },
     "layout": {
       "contentSize": "760px",
       "wideSize": "1200px"
@@ -52,97 +10,44 @@
       "blockGap": true,
       "margin": true,
       "padding": true,
-      "units": [
-        "px",
-        "rem",
-        "%",
-        "vw",
-        "vh"
-      ],
+      "units": ["px", "rem", "%", "vw", "vh"],
       "spacingSizes": [
-        {
-          "slug": "20",
-          "name": "2X Small",
-          "size": "0.5rem"
-        },
-        {
-          "slug": "30",
-          "name": "Small",
-          "size": "1rem"
-        },
-        {
-          "slug": "40",
-          "name": "Medium",
-          "size": "1.5rem"
-        },
-        {
-          "slug": "50",
-          "name": "Large",
-          "size": "2.5rem"
-        },
-        {
-          "slug": "60",
-          "name": "X Large",
-          "size": "4rem"
-        },
-        {
-          "slug": "70",
-          "name": "2X Large",
-          "size": "6rem"
-        }
+        { "slug": "20", "name": "2X Small", "size": "0.5rem" },
+        { "slug": "30", "name": "Small", "size": "1rem" },
+        { "slug": "40", "name": "Medium", "size": "1.5rem" },
+        { "slug": "50", "name": "Large", "size": "2.5rem" },
+        { "slug": "60", "name": "X Large", "size": "4rem" },
+        { "slug": "70", "name": "2X Large", "size": "6rem" }
       ]
     },
     "typography": {
       "fluid": true,
+      "dropCap": false,
       "fontFamilies": [
-        {
-          "slug": "system",
-          "name": "System Sans",
-          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
-        },
-        {
-          "slug": "serif",
-          "name": "Editorial Serif",
-          "fontFamily": "Georgia, Cambria, \"Times New Roman\", Times, serif"
-        }
+        { "slug": "system", "name": "System Sans", "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif" },
+        { "slug": "serif", "name": "Editorial Serif", "fontFamily": "Georgia, Cambria, \"Times New Roman\", Times, serif" }
       ],
       "fontSizes": [
-        {
-          "slug": "small",
-          "name": "Small",
-          "size": "0.875rem"
-        },
-        {
-          "slug": "medium",
-          "name": "Medium",
-          "size": "1rem"
-        },
-        {
-          "slug": "large",
-          "name": "Large",
-          "size": "1.5rem"
-        },
-        {
-          "slug": "x-large",
-          "name": "Extra Large",
-          "size": "2.5rem",
-          "fluid": {
-            "min": "2rem",
-            "max": "3.5rem"
-          }
-        },
-        {
-          "slug": "xx-large",
-          "name": "2X Extra Large",
-          "size": "3.5rem",
-          "fluid": {
-            "min": "2.5rem",
-            "max": "4.5rem"
-          }
-        }
-      ],
-      "lineHeight": true,
-      "dropCap": false
+        { "slug": "small", "name": "Small", "size": "0.875rem" },
+        { "slug": "medium", "name": "Medium", "size": "1rem" },
+        { "slug": "large", "name": "Large", "size": "1.5rem" },
+        { "slug": "x-large", "name": "Extra Large", "size": "2.5rem", "fluid": { "min": "2rem", "max": "3.5rem" } },
+        { "slug": "xx-large", "name": "2X Extra Large", "size": "3.5rem", "fluid": { "min": "2.5rem", "max": "4.5rem" } }
+      ]
+    },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "palette": [
+        { "slug": "primary", "name": "Primary", "color": "#2563eb" },
+        { "slug": "primary-dark", "name": "Primary Dark", "color": "#1d4ed8" },
+        { "slug": "accent", "name": "Accent", "color": "#0f766e" },
+        { "slug": "contrast", "name": "Contrast", "color": "#111827" },
+        { "slug": "muted", "name": "Muted", "color": "#64748b" },
+        { "slug": "surface", "name": "Surface", "color": "#f8fafc" },
+        { "slug": "base", "name": "Base", "color": "#ffffff" }
+      ]
     }
   },
   "styles": {

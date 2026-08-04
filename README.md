@@ -35,15 +35,13 @@ nativepress-agency/
 
 - WordPress 6.5 or newer
 - PHP 8.0 or newer
-- A local or hosted WordPress installation
 
 ## Installation
 
-1. Clone or download this repository.
-2. Place the `nativepress-agency` directory in `wp-content/themes/`.
-3. In WordPress Admin, open **Appearance → Themes**.
-4. Activate **NativePress Agency**.
-5. Open **Appearance → Editor** to inspect and customize the theme.
+1. Place the `nativepress-agency` directory in `wp-content/themes/`.
+2. In WordPress Admin, open **Appearance → Themes**.
+3. Activate **NativePress Agency**.
+4. Open **Appearance → Editor** to customize templates, template parts, and patterns.
 
 ## Roadmap
 

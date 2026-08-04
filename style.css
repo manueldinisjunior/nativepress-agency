@@ -1,6 +1,38 @@
 /*
 Theme Name: NativePress Agency
 Author: Manuel Dinis Júnior
+Description: A clean native WordPress block theme for a modern web agency.
+Version: 1.0.0
+Requires at least: 6.5
+Requires PHP: 8.0
+Text Domain: nativepress
+*/
+
+:root {
+	color-scheme: light;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 3px;
+}
+
+/*
+Theme Name: NativePress Agency
+Author: Manuel Dinis Júnior
 Description: A native WordPress block theme without ACF or page builders.
 Version: 1.0.0
 Requires at least: 6.5
