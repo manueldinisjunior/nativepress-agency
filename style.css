@@ -116,54 +116,61 @@ p {
 	font-weight: 600;
 }
 
-.footer-newsletter-form {
-	display: flex;
-	max-width: 720px;
-	margin: 0 auto;
-	border: 1px solid rgba(255, 255, 255, 0.25);
-	border-radius: 0;
-	overflow: hidden;
+.nativepress-footer-card {
+	box-shadow: 0 20px 50px rgba(26, 31, 58, 0.12);
 }
 
-.footer-newsletter-form input {
-	flex: 1;
-	padding: 1rem 1.25rem;
-	border: 0;
-	background: transparent;
-	color: #ffffff;
-	font-size: 0.95rem;
+.nativepress-footer-navigation {
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
-.footer-newsletter-form input::placeholder {
-	color: rgba(255, 255, 255, 0.65);
+.nativepress-footer-navigation .wp-block-navigation-item a {
+	color: var(--wp--preset--color--muted);
+	font-weight: 400;
 }
 
-.footer-newsletter-form input:focus {
-	outline: none;
+.nativepress-footer-list {
+	list-style: none;
 }
 
-.footer-newsletter-form button {
-	border: 0;
-	padding: 1rem 1.75rem;
-	background: #ffffff;
-	color: #1A1F3A;
-	font-weight: 700;
-	text-transform: uppercase;
-	cursor: pointer;
+.nativepress-footer-list li + li {
+	margin-top: var(--wp--preset--spacing--20);
 }
 
-footer .wp-block-navigation a {
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 0.95rem;
+.nativepress-newsletter-placeholder p,
+.nativepress-footer-meta p {
+	margin-bottom: 0;
 }
 
-footer .wp-block-navigation a:hover {
-	opacity: 0.8;
+.nativepress-newsletter-action {
+	align-self: stretch;
 }
 
-footer .wp-block-group.alignfull.footer-newsletter {
-	background: transparent;
+@media (max-width: 781px) {
+	.nativepress-site-footer {
+		padding-block: var(--wp--preset--spacing--50) !important;
+	}
+
+	.nativepress-footer-card {
+		padding: var(--wp--preset--spacing--40) !important;
+	}
+}
+
+@media (max-width: 480px) {
+	.nativepress-newsletter-placeholder {
+		align-items: stretch !important;
+		flex-direction: column;
+	}
+
+	.nativepress-newsletter-action {
+		border-radius: 0 0 10px 10px !important;
+	}
+
+	.nativepress-footer-meta {
+		align-items: flex-start !important;
+		flex-direction: column;
+	}
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link {
