@@ -20,7 +20,7 @@ register_block_pattern(
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"24px","right":"24px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:64px;padding-right:24px;padding-bottom:64px;padding-left:24px">
 	<!-- wp:heading {"level":2,"textAlign":"center","fontSize":"x-large"} -->
-	<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Selected case studies</h2>
+			<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Ausgewählte Projekte</h2>
 	<!-- /wp:heading -->
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"24px","left":"24px"}}}} -->
 	<div class="wp-block-columns">
@@ -32,7 +32,7 @@ register_block_pattern(
 				<p>Northstar Studio</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p>We reworked their conversion funnel and increased qualified leads by 38% within three months.</p>
+				<p>Wir haben den Conversion-Funnel überarbeitet und die qualifizierten Anfragen innerhalb von drei Monaten deutlich gesteigert.</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -46,7 +46,7 @@ register_block_pattern(
 				<p>Summit Labs</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p>Our content-led site architecture helped them launch a more compelling product narrative.</p>
+				<p>Eine inhaltsorientierte Seitenarchitektur schuf eine überzeugende Geschichte für das Produkt.</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -60,7 +60,7 @@ register_block_pattern(
 				<p>Brightline Health</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:paragraph -->
-				<p>We built a flexible editorial experience that improved content updates without sacrificing performance.</p>
+				<p>Ein flexibles Redaktionssystem vereinfacht Aktualisierungen, ohne die Performance zu beeinträchtigen.</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
