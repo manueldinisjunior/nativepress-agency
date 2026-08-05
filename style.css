@@ -207,6 +207,8 @@ p {
 .nativepress-header-nav { display:flex; align-items:center; gap:2rem; font-size:.82rem; font-weight:500; }
 .nativepress-header-nav a { color:#17213f; }.nativepress-header-nav a:hover { color:#20c5ed; }
 .nativepress-header-nav .nativepress-nav-cta, .nativepress-cta a { background:#17213f; color:#fff; border-radius:10px; padding:.85rem 1.35rem; font-weight:700; }
+.nativepress-home-hero, .nativepress-home-services, .nativepress-home-cta { padding-inline: max(1.25rem, calc((100vw - 1280px) / 2)) !important; }
+.nativepress-hero-card { color:#fff; min-height:280px; display:flex; flex-direction:column; justify-content:center; }.nativepress-hero-card h3, .nativepress-hero-card p, .nativepress-hero-card li { color:#fff; }.nativepress-service-card { min-height:230px; border-radius:16px; background:#fff; box-shadow:0 8px 24px rgba(23,33,63,.06); }.nativepress-home-services { background:#f3f7fc; }.nativepress-home-cta { background:#f3f7fc; }.nativepress-home-cta > .wp-block-group { border-radius:22px; }.nativepress-home-cta h2, .nativepress-home-cta p { color:#fff; }
 .nativepress-page-hero { background:#fff; padding:4.5rem 2rem 4.75rem; }.nativepress-page-hero h1 { max-width:720px; margin:.55rem 0 1rem; font-size:clamp(2.5rem,5vw,4.1rem); letter-spacing:-.055em; }
 .nativepress-eyebrow { color:#16bfe8; margin:0; font-size:.72rem; font-weight:700; letter-spacing:.14em; line-height:1.2; text-transform:uppercase; }
 .nativepress-lead { max-width:650px; color:#70809f; font-size:1.06rem; line-height:1.65; }

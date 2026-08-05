@@ -18,7 +18,7 @@ register_block_pattern(
 		'viewportWidth' => 1200,
 		'content'       => <<<HTML
 <!-- wp:group {"align":"full","id":"services","style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"24px","right":"24px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" id="services" style="padding-top:64px;padding-right:24px;padding-bottom:64px;padding-left:24px">
+<div class="wp-block-group alignfull nativepress-home-services" id="services" style="padding-top:64px;padding-right:24px;padding-bottom:64px;padding-left:24px">
 	<!-- wp:heading {"level":2,"textAlign":"center","fontSize":"x-large"} -->
 	<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Dienstleistungen, die Unternehmen voranbringen</h2>
 	<!-- /wp:heading -->
@@ -30,7 +30,7 @@ register_block_pattern(
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"border":{"width":"1px","color":"#E8E6E1"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}}}} -->
-			<div class="wp-block-group has-border-color" style="border-color:#E8E6E1;border-width:1px;padding:24px">
+			<div class="wp-block-group has-border-color nativepress-service-card" style="border-color:#E8E6E1;border-width:1px;padding:24px">
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Web-App-Entwicklung</h3>
 				<!-- /wp:heading -->
@@ -44,7 +44,7 @@ register_block_pattern(
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"border":{"width":"1px","color":"#E8E6E1"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}}}} -->
-			<div class="wp-block-group has-border-color" style="border-color:#E8E6E1;border-width:1px;padding:24px">
+			<div class="wp-block-group has-border-color nativepress-service-card" style="border-color:#E8E6E1;border-width:1px;padding:24px">
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Markenführung</h3>
 				<!-- /wp:heading -->
@@ -58,7 +58,7 @@ register_block_pattern(
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"border":{"width":"1px","color":"#E8E6E1"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}}}} -->
-			<div class="wp-block-group has-border-color" style="border-color:#E8E6E1;border-width:1px;padding:24px">
+			<div class="wp-block-group has-border-color nativepress-service-card" style="border-color:#E8E6E1;border-width:1px;padding:24px">
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Cloud-Lösungen</h3>
 				<!-- /wp:heading -->

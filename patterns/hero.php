@@ -18,7 +18,7 @@ register_block_pattern(
 		'viewportWidth' => 1200,
 		'content'       => <<<HTML
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"80px","left":"24px","right":"24px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:80px;padding-right:24px;padding-bottom:80px;padding-left:24px">
+<div class="wp-block-group alignfull nativepress-home-hero" style="padding-top:80px;padding-right:24px;padding-bottom:80px;padding-left:24px">
 	<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"32px","left":"32px"}}}} -->
 	<div class="wp-block-columns are-vertically-aligned-center">
 		<!-- wp:column {"width":"55%"} -->
@@ -47,7 +47,7 @@ register_block_pattern(
 		<!-- wp:column {"width":"45%"} -->
 		<div class="wp-block-column" style="flex-basis:45%">
 			<!-- wp:group {"style":{"color":{"background":"#f8fafc"},"border":{"radius":"24px"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"}}}} -->
-			<div class="wp-block-group has-background" style="border-radius:24px;padding:32px;background-color:#f8fafc">
+			<div class="wp-block-group has-background nativepress-hero-card" style="border-radius:24px;padding:32px;background-color:#17213f">
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Skalierung digitaler Teams mit nativen Erlebnissen</h3>
 				<!-- /wp:heading -->
